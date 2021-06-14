@@ -1,0 +1,112 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Test</title>
+  </head>
+  <body>
+    <script>
+      function party() {
+        let right = document.getElementById("right");
+
+        right.style.animation = "animation 2s";
+        setTimeout(() => {
+          right.style.animation = "none";
+        }, 2000);
+      }
+    </script>
+    <div class="main">
+      <div class="top">
+        <a href="index.html">Strona główna</a
+        ><a href="podstrona.html" style="font-weight: 700">Test</a
+        ><a href="pogotowie.html">Pogotowie</a>
+      </div>
+      <div class="left">
+        <h1 style="text-align: center; margin-top: 2em">Test</h1>
+        <form
+          action="mailto:janekpieklo@icloud.com"
+          method="POST"
+          enctype="multipart/form-data"
+          name="EmailForm"
+        >
+          Podaj swój email.<br /><input type="text" /><br /><br />
+          1. W jakich znaczikach podkreśla się tekst w HTML.<br />
+          <input type="text" /><br />
+          2. Czym się różni "==" od "===".<br /><input type="text" /><br />
+          3. Jak się łączy zewnętrzny plik css ze stroną.<br /><input
+            type="text"
+          /><br />
+          4. Jak ustawić w języku css obraz jako tło.<br /><input
+            type="text"
+          /><br />
+          5. Jak uworzyc obiekt HTML w JS.<br /><input type="text" /><br />
+          6. Co ustawia "z-index".<br />
+          <input type="text" /><br />
+          7. Czym sie różni pozycja "relative" od "absolute".<br /><input
+            type="text"
+          /><br />
+          8. Co to jest wielkość "em".<br /><input type="text" /><br />
+          9. Co oznacza ":hover" w css.<br /><input type="text" /><br />
+          10. Do czego używa się "@import".<br /><input type="text" /><br />
+          11. Jaka jest różnica między skryptem w "head", a "body".<br />
+          <input type="text" /><br />
+          12. Czym jest argument "bufer" w html. <br />
+          <input type="text" /><br />
+          13. Co to jest "phpmyadmin".<br /><input type="text" /><br />
+          14. Co to jest element "@keyframe" w css..<br /><input
+            type="text"
+          /><br />
+          15. Jaką wartość zwraca "document.getElementsByClassName()".<br /><input
+            type="text"
+          /><br />
+          <br /><input
+            type="submit"
+            value="Wyślij do sprawdzenia"
+            style="
+              background-color: rgba(148, 187, 233, 1);
+              border-radius: 5px;
+              height: 2em;
+            "
+          />
+        </form>
+        <br /><br />
+      </div>
+      <div class="right" id="right">
+        <div class="menu">Menu</div>
+        <center>
+          <a
+            href="https://th.bing.com/th/id/R9ac9614bf1677cf1d53c83236b57a7d8?rik=%2b1gw0BQyeF8m8Q&riu=http%3a%2f%2fwww.sp-skorzewo.edu.pl%2fimages%2fNauczanie_zdalne_-_gif.gif&ehk=SMrnBad3HRA3nSIXspz3EO3PwtRCvKAmH3qR7YhBXRk%3d&risl=&pid=ImgRaw"
+            style="margin-top: 1em"
+            >Zdalne nauczanie</a
+          ><br />
+          <a
+            href="https://th.bing.com/th/id/R63e3b883b816acdd68768d3afe47fe5e?rik=RYHOx8gla3cAIw&pid=ImgRaw"
+            >Zajęcia on-line</a
+          ><br />
+          <a
+            href="https://th.bing.com/th/id/Ra9f6c8118c780e752047f8278ac785db?rik=Bs3%2b0B8QpbmPTQ&riu=http%3a%2f%2fedumuch.com%2fwp-content%2fuploads%2f2016%2f03%2fStandardized-Testing.gif&ehk=iHdF78KKVT4TB9riGR8SHr07HITmM%2f8icRFeAxCS6DM%3d&risl=&pid=ImgRaw"
+            >Sprawdziany on-line</a
+          ><br />
+          <a
+            href="https://th.bing.com/th/id/Re3443f3b0f41c18005a0591ba481b8be?rik=xh1EmR5NJZRInw&riu=http%3a%2f%2fi.imgur.com%2fbwmi5bn.gif&ehk=LGDGguYY6WVoseEp3tXarN25qcUd4CDGeqZZdsT61c8%3d&risl=&pid=ImgRaw"
+            >Czynny udział w lekcji</a
+          ><br />
+          <a href="https://ardas-it.com/uploads/images/blogs/giph.gif"
+            >Programista</a
+          ><br />
+          <a
+            href="https://th.bing.com/th/id/R128ca70f52701785f7dfc0bde4496a02?rik=CRO6P645x7e6tA&pid=ImgRaw"
+            >Informatyk</a
+          ><br />
+          <a onclick="party()">Animacja</a><br />
+          <a
+            href="https://th.bing.com/th/id/Re58093882ab4c4ef317d2386d83a58e9?rik=wtVXD0jJehz3bQ&riu=http%3a%2f%2fmedia.giphy.com%2fmedia%2f1IDqrFySO6y1a%2fgiphy.gif&ehk=QP46w53A0k9s1HIVS%2foR8%2bTaroyKuR2X1OZe0AIFTXM%3d&risl=&pid=ImgRaw"
+            >Lekcje stacjonarne</a
+          ><br /><br /><br /><br />
+        </center>
+      </div>
+    </div>
+  </body>
+</html>
