@@ -1,0 +1,68 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pogotowie ratunkowe</title>
+    <link rel="stylesheet" href="pogotowie.css" />
+  </head>
+  <body>
+    <div class="top">
+      <a href="index.html">Strona główna</a><a href="podstrona.html">Test</a
+      ><a href="pogotowie.html" style="font-weight: 700">Pogotowie</a>
+    </div>
+    <main>
+      <section
+        style="
+          width: 100%;
+          height: 30%;
+          background-color: rgba(148, 187, 233, 1);
+          display: flex;
+          align-items: center;
+        "
+      >
+        <img src="karetka.jpg" width="30%" height="100%" />
+        <h1 style="margin: 0 auto; font-size: 2em">Pogotowie ratunkowe</h1>
+        <h4
+          style="
+            position: absolute;
+            display: inline;
+            top: 0em;
+            left: 45em;
+            width: 2em;
+            margin: 0;
+          "
+        >
+          Kontakt: 123456789
+        </h4>
+      </section>
+
+      <form style="margin-left: 5%">
+        <h2>Dodaj nowe zgłoszenie</h2>
+        <h4 style="line-height: 0%">Numer zespołu ratunkowego</h4>
+        <input type="text" />
+        <h4 style="line-height: 0%">Numer dyspozytora</h4>
+        <input type="text" />
+        <h4 style="line-height: 0%">Adres</h4>
+        <input type="text" size="40" /><br /><br />
+        <input type="reset" value="Resetuj" />
+        <input type="submit" value="Zgłoś" />
+      </form>
+      <section
+        style="
+          position: absolute;
+          top: 21em;
+          left: 41em;
+          width: 7em;
+          height: 7em;
+          background-color: aliceblue;
+          text-align: center;
+        "
+      >
+        <h3 style="display: inline">Numery alarmowe</h3>
+        <input type="radio" name="1" /> 999<br />
+        <input type="radio" name="1" checked /> 112
+      </section>
+    </main>
+  </body>
+</html>
